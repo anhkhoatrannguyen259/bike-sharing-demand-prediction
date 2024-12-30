@@ -1,3 +1,4 @@
-# DS105_Final
-Source code phân tích dữ liệu và phát triển mô hình của nhóm 7.
-Sinh viên thực hiện: Trần Nguyễn Anh Khoa - 18520938.
+# Bike Sharing Demand Prediction Using Machine Learning
+Nowadays, rental bicycles have been deployed in many urban cities to improve the convenience of transportation. It is important that the provision of rental bicycles is accessible to the public at the right time as it will reduce the waiting time. Therefore, providing rental locations in the city with a stable supply of rental bicycles becomes a major concern. In this topic, we will apply machine learning to predict the number of rental bicycles at each hour of the day so that we can prepare a stable supply of rental bicycles.
+
+With the obtained dataset, we will preprocess and analyze to find the most important features for model training. The models used in this topic are Polynomial Regression and Random Forest Regression. After training, we will test the prediction results, compare and evaluate the two models. The results of the cross validation evaluation method show that the best model of Polynomial Regression gives R2 = 0.8358, the best model of Random Forest Regression gives R2 = 0.8597. In this topic, the Random Forest Regression model will be used to make predictions.
